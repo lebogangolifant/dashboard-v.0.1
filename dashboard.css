@@ -1,4 +1,7 @@
 /* navbar */
+.navbar {
+  height: 80px;
+}
 .navbar-brand{
     margin-left: 20px;
     text-transform: uppercase;
@@ -28,7 +31,7 @@
     top: 0;
     z-index: 100;
     padding: 70px 0 0 10px;
-    border-right: 1px solid #d3d3d3;
+    border-right: 1px solid #1f1d1d;
   }
   
   .left-sidebar {
@@ -43,19 +46,56 @@
   }
 
   /* main */
+  body {
+    background-color: #1f1d1d;
+    color: #fff;
+  }
+  
   main {
     padding-top: 90px;
   }
 
   .table-responsive{
       border-radius: 20px;
+      background-color: #000;
+  }
+
+  .table {
+    background-color: #000;
   }
 
   main h3{
+    margin-top: 40px;
     text-transform: uppercase;
   }
 
   main .card {
+    background-color: #000;
+    color: #fff;
     margin-bottom: 20px;
     border-radius: 20px;
+  }
+
+  /* mobile display */
+  @media (max-width: 600px) {
+    .navbar {
+      height: 110px;
+    }
+
+    .navbar-brand {
+      margin: auto;
+      text-align: center;
+  }
+
+  .navbar-brand img {
+    width: 30px;
+ }
+
+.navbar li {
+  visibility: hidden;
+}
+
+main h3{
+  margin-top: 35px;
+}
   }
