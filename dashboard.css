@@ -9,7 +9,7 @@
 }
 
 .navbar-brand img{
-    width: 40px;
+    width: 25px;
 }
 
 .navbar li{
@@ -18,7 +18,7 @@
 }
 
 .form-control-primary{
-    margin: 10px;
+    margin: 10px 0 0 -14px;
     opacity: 0.2;
     border-radius: 10px;
 }
@@ -31,7 +31,7 @@
     top: 0;
     z-index: 100;
     padding: 70px 0 0 10px;
-    border-right: 1px solid #1f1d1d;
+    border-right: 1px solid #929090;
   }
   
   .left-sidebar {
@@ -65,6 +65,7 @@
   }
 
   main h3{
+    font-size: 1.1rem;
     margin-top: 40px;
     text-transform: uppercase;
   }
