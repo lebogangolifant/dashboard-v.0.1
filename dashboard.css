@@ -79,6 +79,10 @@
 
   /* mobile display */
   @media (max-width: 600px) {
+
+    .form-control-primary{
+      margin: 10px 10px;
+  }
     .navbar {
       height: 110px;
     }
@@ -89,7 +93,7 @@
   }
 
   .navbar-brand img {
-    width: 30px;
+    width: 25px;
  }
 
 .navbar li {
